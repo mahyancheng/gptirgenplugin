@@ -1,0 +1,28 @@
+{
+  "name": "Investment Report Generator",
+  "version": "1.0.0",
+  "author": "Mah",
+  "url": "https://mahyancheng-irgewngptplugin-irgen-mainreport-generator-oo1usd.streamlit.app/",
+  "description": "This plugin generates an investment report for a given ticker symbol.",
+  "commands": [
+    {
+      "name": "generateReport",
+      "description": "Generates an investment report for a given ticker symbol.",
+      "inputs": [
+        {
+          "name": "ticker_symbol",
+          "description": "The ticker symbol of the company.",
+          "type": "string",
+          "required": true
+        }
+      ],
+      "outputs": [
+        {
+          "name": "report",
+          "description": "The generated investment report.",
+          "type": "string"
+        }
+      ]
+    }
+  ]
+}
